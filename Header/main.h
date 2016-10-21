@@ -1,0 +1,19 @@
+#include <SDL2/SDL_mixer.h>
+#include <SDL2/SDL_ttf.h>
+#include <SDL2/SDL.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+
+#include "structs.c"
+#include "../Class/OnFile.c"
+#include "../Class/OnInit.c"
+#include "../Class/OnColision.c"
+#include "../Class/OnPlay.c"
+#include "../Class/OnCleanup.c"
+#include "../Class/OnLoop.c"
+#include "../Class/OnMovement.c"
+#include "../Class/OnRender.c"
+#include "../Class/OnEvent.c"
+#include "../Class/OnExecute.c"
